@@ -57,11 +57,11 @@ for j in range(len(runs)):
     # # learning_rate = learning_rate + 0.05
     # # n_epoch = n_epoch + 4
     r =  r + 1000
-    if (r + 10000) > 15800:
+    if (r + 15000) > 20000:
         r = w
         w += 300
-    traindataset = [testdataset[i] for i in range(r, r + 10000)]
-    train_target = [test_target[i] for i in range(r, r + 10000)]
+    traindataset = [testdataset[i] for i in range(r, r + 15000)]
+    train_target = [test_target[i] for i in range(r, r + 15000)]
     clf = svm.SVC(kernel="rbf", decision_function_shape='ovo')
     clf.fit(traindataset, train_target)
 

@@ -79,7 +79,7 @@ Momentum_10 = xl10['Momentum']
 
 n = 5
 Close,Change,Stock_Price_Volatility,Stock_Momentum, Index_Volatility,Index_Momentum, Sector_Momentum = [],[],[],[],[],[],[]
-for i in range(5,1762):
+for i in range(5,2230):
     #file1 stock process
     file1_close = (Change_1[i]+Change_1[i-1]+Change_1[i-2]+Change_1[i-3]+Change_1[i-4])/5
     file1_Stock_Momentum = (Momentum_1[i] + Momentum_1[i - 1] + Momentum_1[i - 2] + Momentum_1[i - 3] + Momentum_1[i - 4]) / 5
@@ -188,5 +188,5 @@ for i in range(5,1762):
 
 xl = pd.DataFrame({'Close':Close, 'Change':Change,'Stock_Price_Volatility':Stock_Price_Volatility,'Stock_Momentum':Stock_Momentum,'Index_Volatility':Index_Volatility,'Index_Momentum':Index_Momentum,'Sector_Momentum':Sector_Momentum}) # a represents closing date b represents closing value c represents close change and d represents momentum
 #
-xl.to_csv("Input_Dataset1.CSV",index=False,header=True)
+xl.to_csv("Input_Dataset.CSV",index=False,header=True)
 
