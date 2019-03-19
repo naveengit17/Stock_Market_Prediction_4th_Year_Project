@@ -193,11 +193,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.BackPropagation-Dataset-Creation" />
-      <item itemvalue="Python.FinalDataset-Creation" />
-      <item itemvalue="Python.LSTM" />
       <item itemvalue="Python.LSTM_Dataset_Creation" />
+      <item itemvalue="Python.LSTM" />
       <item itemvalue="Python.backpropagetion" />
+      <item itemvalue="Python.FinalDataset-Creation" />
+      <item itemvalue="Python.BackPropagation-Dataset-Creation" />
     </list>
     <recent_temporary>
       <list>
