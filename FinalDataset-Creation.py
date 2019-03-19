@@ -77,41 +77,71 @@ Close_10 = xl10['Close']
 Change_10 = xl10['Change']
 Momentum_10 = xl10['Momentum']
 
+
+
 n = 5
 Close,Change,Stock_Price_Volatility,Stock_Momentum, Index_Volatility,Index_Momentum, Sector_Momentum = [],[],[],[],[],[],[]
 for i in range(5,2230):
     #file1 stock process
     file1_close = (Change_1[i]+Change_1[i-1]+Change_1[i-2]+Change_1[i-3]+Change_1[i-4])/5
+    file1_close = round(file1_close,9)
     file1_Stock_Momentum = (Momentum_1[i] + Momentum_1[i - 1] + Momentum_1[i - 2] + Momentum_1[i - 3] + Momentum_1[i - 4]) / 5
+    file1_Stock_Momentum = round(file1_Stock_Momentum, 9)
     #file1 stock process
     file2_close = (Change_2[i]+Change_2[i-1]+Change_2[i-2]+Change_2[i-3]+Change_2[i-4])/5
+    file2_close = round(file2_close, 9)
+
     file2_Stock_Momentum = (Momentum_2[i] + Momentum_2[i - 1] + Momentum_2[i - 2] + Momentum_2[i - 3] + Momentum_2[i - 4]) / 5
+    file2_Stock_Momentum = round(file2_Stock_Momentum, 9)
     #file1 stock process
     file3_close = (Change_3[i]+Change_3[i-1]+Change_3[i-2]+Change_3[i-3]+Change_3[i-4])/5
+    file3_close = round(file3_close, 9)
+
     file3_Stock_Momentum = (Momentum_3[i] + Momentum_3[i - 1] + Momentum_3[i - 2] + Momentum_3[i - 3] + Momentum_3[i - 4]) / 5
+    file3_Stock_Momentum = round(file3_Stock_Momentum, 9)
     #file1 stock process
     file4_close = (Change_4[i]+Change_4[i-1]+Change_4[i-2]+Change_4[i-3]+Change_4[i-4])/5
+    file4_close = round(file4_close, 9)
+
     file4_Stock_Momentum = (Momentum_4[i] + Momentum_4[i - 1] + Momentum_4[i - 2] + Momentum_4[i - 3] + Momentum_4[i - 4]) / 5
+    file4_Stock_Momentum = round(file4_Stock_Momentum, 9)
     #file1 stock process
     file5_close = (Change_5[i]+Change_5[i-1]+Change_5[i-2]+Change_5[i-3]+Change_5[i-4])/5
-    file5_Stock_Momentum = (Momentum_5[i] + Momentum_5[i - 1] + Momentum_5[i - 2] + Momentum_5[i - 3] + Momentum_5[i - 4]) / 5
+    file5_Stock_Momentum = (Momentum_5[i] + Momentum_5[i - 1] + Momentum_5[i - 2] + Momentum_5[i - 3] + Momentum_5[ i - 4]) / 5
+    file5_Stock_Momentum = round(file5_Stock_Momentum, 9)
     #file1 stock process
     file6_close = (Change_6[i]+Change_6[i-1]+Change_6[i-2]+Change_6[i-3]+Change_6[i-4])/5
+    file6_close = round(file6_close, 9)
+
     file6_Stock_Momentum = (Momentum_6[i] + Momentum_6[i - 1] + Momentum_6[i - 2] + Momentum_6[i - 3] + Momentum_6[i - 4]) / 5
+    file6_Stock_Momentum = round(file6_Stock_Momentum, 9)
     #file1 stock process
     file7_close = (Change_7[i]+Change_7[i-1]+Change_7[i-2]+Change_7[i-3]+Change_7[i-4])/5
+    file7_close = round(file7_close, 9)
+
     file7_Stock_Momentum = (Momentum_7[i] + Momentum_7[i - 1] + Momentum_7[i - 2] + Momentum_7[i - 3] + Momentum_7[i - 4]) / 5
+    file7_Stock_Momentum = round(file7_Stock_Momentum, 9)
     #file1 stock process
     file8_close = (Change_8[i]+Change_8[i-1]+Change_8[i-2]+Change_8[i-3]+Change_8[i-4])/5
+    file8_close = round(file8_close, 9)
+
     file8_Stock_Momentum = (Momentum_8[i] + Momentum_8[i - 1] + Momentum_8[i - 2] + Momentum_8[i - 3] + Momentum_8[i - 4]) / 5
+    file8_Stock_Momentum = round(file8_Stock_Momentum, 9)
     #file1 stock process
     file9_close = (Change_9[i]+Change_9[i-1]+Change_9[i-2]+Change_9[i-3]+Change_9[i-4])/5
+    file9_close = round(file9_close, 9)
+
     file9_Stock_Momentum = (Momentum_9[i] + Momentum_9[i - 1] + Momentum_9[i - 2] + Momentum_9[i - 3] + Momentum_9[i - 4]) / 5
+    file9_Stock_Momentum = round(file9_Stock_Momentum, 9)
     #file1 stock process
     file10_close = (Change_10[i]+Change_10[i-1]+Change_10[i-2]+Change_10[i-3]+Change_10[i-4])/5
+    file10_close = round(file10_close, 9)
+
     file10_Stock_Momentum = (Momentum_10[i] + Momentum_10[i - 1] + Momentum_10[i - 2] + Momentum_10[i - 3] + Momentum_10[i - 4]) / 5
+    file10_Stock_Momentum = round(file10_Stock_Momentum, 9)
     #stock momentum for given day
     Sector_momentum = (file1_Stock_Momentum  + file2_Stock_Momentum + file3_Stock_Momentum + file4_Stock_Momentum + file5_Stock_Momentum + file6_Stock_Momentum + file7_Stock_Momentum + file8_Stock_Momentum + file9_Stock_Momentum)/9
+    Sector_momentum = round(Sector_momentum, 9)
 
     Close.append(Close_1[i])
     Change.append(Momentum_1[i])
