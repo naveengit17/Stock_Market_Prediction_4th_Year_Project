@@ -219,4 +219,3 @@ for i in range(5,2230):
 xl = pd.DataFrame({'Close':Close, 'Change':Change,'Stock_Price_Volatility':Stock_Price_Volatility,'Stock_Momentum':Stock_Momentum,'Index_Volatility':Index_Volatility,'Index_Momentum':Index_Momentum,'Sector_Momentum':Sector_Momentum}) # a represents closing date b represents closing value c represents close change and d represents momentum
 #
 xl.to_csv("Input_Dataset.CSV",index=False,header=True)
-

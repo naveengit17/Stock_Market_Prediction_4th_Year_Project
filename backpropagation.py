@@ -51,6 +51,23 @@ def normalize_dataset(dataset, minmax):
 
 # testdataset
 testdataset= Read_file('BackPropagation_Input.CSV')
+# dataset = Read_file('Input_Dataset.csv')
+# x = int(2*len(dataset)/3)
+# traindataset = dataset[0:x]
+# testdataset = dataset[x:len(dataset)]
+
+
+
+
+# #
+# for i in range(len(traindataset[0]) - 1):
+#     str_column_to_int(traindataset, i)
+# # # convert last column to integers
+# str_column_to_int(traindataset, len(traindataset[0]) - 1)
+#
+# #normalize dataset to get better result
+# minmax = dataset_minmax(traindataset)
+# normalize_dataset(traindataset, minmax)
 
 for i in range(len(testdataset[0]) - 1):
     str_column_to_int(testdataset, i)
@@ -168,7 +185,7 @@ n_epoch = 30
 w = 0
 r = 1
 print('Backprop aglo')
-runs = [0]*30
+runs = [0]*5
 for i in range(len(runs)):
     # # learning_rate = learning_rate + 0.05
     # # n_epoch = n_epoch + 4
@@ -198,3 +215,4 @@ print("Mean_Accuracy: {}".format(mean))
 print("Standard_Deviation: {}".format(np.std(runs, 0)))
 time_taken = time.time() - start_time
 print("total_time : {}".format(time_taken))
+

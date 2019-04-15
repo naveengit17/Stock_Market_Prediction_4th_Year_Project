@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc9d673-ec49-4cbf-9c90-f0718b57aef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BackPro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackPropagation_Input.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalDataset-Creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/FinalDataset-Creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSTM_Implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/LSTM_Implementation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM_Implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM_Implementation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backpropagation.py" beforeDir="false" afterPath="$PROJECT_DIR$/backpropagation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,22 +16,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backpropagation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="11" column="20" lean-forward="true" selection-end-line="200" />
+            <state relative-caret-position="-1573">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BackPro.py">
+        <entry file="file://$PROJECT_DIR$/LSTM_Implementation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+            <state relative-caret-position="275">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM_Implementation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackPropagation-Dataset-Creation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackPropagation_Input.CSV">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="427">
+              <caret line="15812" column="54" selection-start-line="15812" selection-start-column="54" selection-end-line="15812" selection-end-column="54" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -55,18 +95,21 @@
         <option value="$PROJECT_DIR$/SVM_Input.CSV" />
         <option value="$PROJECT_DIR$/Input_Dataset.CSV" />
         <option value="$PROJECT_DIR$/backpropagetion.py" />
+        <option value="$PROJECT_DIR$/BackPro.py" />
+        <option value="$PROJECT_DIR$/BackPropagation-Dataset-Creation.py" />
+        <option value="$PROJECT_DIR$/FinalDataset-Creation.py" />
+        <option value="$PROJECT_DIR$/SVM_Implementation.py" />
         <option value="$PROJECT_DIR$/backpropagation.py" />
         <option value="$PROJECT_DIR$/BackPropagation_Input.CSV" />
-        <option value="$PROJECT_DIR$/FinalDataset-Creation.py" />
-        <option value="$PROJECT_DIR$/BackPropagation-Dataset-Creation.py" />
-        <option value="$PROJECT_DIR$/BackPro.py" />
+        <option value="$PROJECT_DIR$/LSTM_Implementation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1221" />
-    <option name="height" value="1050" />
+    <option name="x" value="64" />
+    <option name="y" value="53" />
+    <option name="width" value="1211" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -88,7 +131,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new/Stock-predection" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -103,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.backpropagetion">
+  <component name="RunManager" selected="Python.LSTM_Implementation">
     <configuration name="BackPropagation-Dataset-Creation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LSTM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LSTM_Implementation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,7 +202,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM_Implementation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LSTM_Dataset_Creation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SVM_Implementation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +223,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM_Dataset_Creation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM_Implementation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,19 +254,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LSTM_Dataset_Creation" />
-      <item itemvalue="Python.LSTM" />
-      <item itemvalue="Python.backpropagetion" />
-      <item itemvalue="Python.FinalDataset-Creation" />
       <item itemvalue="Python.BackPropagation-Dataset-Creation" />
+      <item itemvalue="Python.FinalDataset-Creation" />
+      <item itemvalue="Python.SVM_Implementation" />
+      <item itemvalue="Python.backpropagetion" />
+      <item itemvalue="Python.LSTM_Implementation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LSTM_Implementation" />
         <item itemvalue="Python.backpropagetion" />
+        <item itemvalue="Python.SVM_Implementation" />
         <item itemvalue="Python.BackPropagation-Dataset-Creation" />
         <item itemvalue="Python.FinalDataset-Creation" />
-        <item itemvalue="Python.LSTM" />
-        <item itemvalue="Python.LSTM_Dataset_Creation" />
       </list>
     </recent_temporary>
   </component>
@@ -241,18 +285,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15023722" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.329849" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32946634" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32868758" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.29268292" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3902439" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -295,11 +338,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BackPropagation_Dataset_Creation.py" />
     <entry file="file://$PROJECT_DIR$/BackPropagation.py" />
-    <entry file="file://$PROJECT_DIR$/Apple_Modified.CSV">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33098" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Input_Dataset1.CSV" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/sklearn/utils/validation.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -340,19 +378,6 @@
     <entry file="file://$PROJECT_DIR$/AAPL.CSV">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_Target.CSV">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_Implementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="44" column="10" selection-start-line="44" selection-end-line="44" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LSTM_Input.CSV">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -363,77 +388,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_Input.CSV">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="87" selection-start-column="87" selection-end-column="87" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Apple_Modified.CSV">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-33098" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_Implementation.py">
+    <entry file="file://$PROJECT_DIR$/BackPro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input_Dataset.CSV">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        <state relative-caret-position="3410">
+          <caret line="195" column="25" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SVM_Dataset_Creation.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input_Dataset.CSV">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_Target.CSV">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_Input.CSV">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="13332">
+          <caret line="606" column="85" lean-forward="true" selection-start-line="606" selection-start-column="85" selection-end-line="606" selection-end-column="85" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="22" selection-end-column="52" />
+          <caret column="87" selection-start-column="87" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FinalDataset-Creation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-701">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="4862">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BackPropagation-Dataset-Creation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM_Implementation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BackPropagation_Input.CSV">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="73" lean-forward="true" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
+        <state relative-caret-position="427">
+          <caret line="15812" column="54" selection-start-line="15812" selection-start-column="54" selection-end-line="15812" selection-end-column="54" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backpropagation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="20" lean-forward="true" selection-end-line="200" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackPro.py">
+    <entry file="file://$PROJECT_DIR$/backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+        <state relative-caret-position="-1573">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM_Implementation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
